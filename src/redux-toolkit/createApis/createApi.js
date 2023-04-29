@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const newsApi = createApi({
   reducerPath: "newsApi",
-  baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:5000" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "https://the-dragon-news-server-mehedihasan2810.vercel.app" }),
   endpoints: (builder) => ({
     getCategories: builder.query({
       query: () => "categories",
