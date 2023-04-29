@@ -11,7 +11,7 @@ const RightNav = () => {
         <FaGoogle /> Login with Google
       </Button>
       <Button variant="outline-secondary">
-        <FaGithub /> Login with Google
+        <FaGithub /> Login with GitHub
       </Button>
 
       <div>
